@@ -1,0 +1,51 @@
+body {
+    background-image: url("https://images.unsplash.com/photo-1580563416677-b94d06d77497?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=975&q=80");
+    background-color: aquamarine;
+}
+.container {
+    background-color: beige;
+    border-style: ridge;
+    border-radius: 8px;
+    height: 375px;
+    width: 375px;
+    margin: 100px auto;
+    background-image: url("https://images.unsplash.com/photo-1556641267-b0726cf7cae0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80");
+    background-size: 375px;
+}
+#display {
+    height: 30px;
+    width: 300px;
+    padding-top: 15px;
+    padding-right: 5px;
+    margin: 15px auto 18px auto;
+    border-style: groove;
+    border-color: black;
+    border-radius: 3px;
+    text-align: right;
+    background-color: bisque;
+    opacity: .2;
+    color: "white";
+}
+button {
+    padding: 5px;
+    margin: 5px 3px 5px 6px;
+    height: 40px;
+    width: 80px;
+    font-weight: bold;
+    font-size: large;
+}
+#equals, #dot, #negative {
+    background-color: orange;
+}
+#back {
+    font-size: small;
+}
+#clearAll, #clearEntry, #back {
+    background-color: rgb(168, 90, 90);
+}
+.operand {
+    background-color: palevioletred;
+}
+.number, #zero {
+    background-color: rgb(240, 172, 145);
+}
