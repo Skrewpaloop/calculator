@@ -1,6 +1,11 @@
 body {
-    background-image: url("https://images.unsplash.com/photo-1580563416677-b94d06d77497?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=975&q=80");
     background-color: aquamarine;
+    background: url("https://unsplash.com/photos/K785Da4A_JA/download?force=true&w=1920") no-repeat center center fixed;
+    background-size: cover;
+}
+h1 {
+    text-align: center;
+    text-shadow: 1px 1px 1px white;
 }
 .container {
     background-color: beige;
@@ -8,23 +13,23 @@ body {
     border-radius: 8px;
     height: 375px;
     width: 375px;
-    margin: 100px auto;
+    margin: 0px auto;
     background-image: url("https://images.unsplash.com/photo-1556641267-b0726cf7cae0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80");
     background-size: 375px;
 }
 #display {
-    height: 30px;
+    height: 50px;
     width: 300px;
-    padding-top: 15px;
+    padding-top: 8px;
     padding-right: 5px;
     margin: 15px auto 18px auto;
     border-style: groove;
     border-color: black;
     border-radius: 3px;
-    text-align: right;
+    text-align: center;
     background-color: bisque;
-    opacity: .2;
-    color: "white";
+    opacity: .6;
+    color: rgb(64, 4, 88);
 }
 button {
     padding: 5px;
