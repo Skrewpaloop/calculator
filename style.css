@@ -27,6 +27,7 @@ h3 {
     background-size: 375px;
 }
 #display {
+    font-family: sans-serif;
     height: 50px;
     width: 300px;
     padding-top: 8px;
