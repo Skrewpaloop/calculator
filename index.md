@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TI-142 Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>TI-142</h1>
+    <main class="container">
+        <div id="display"></div>
+        <button id="negative">+/ -</button>
+        <button id="back">Backspace</button>
+        <button id="clearEntry">CE</button>
+        <button id="clearAll">C</button>
+        <button class="number" id="one">1</button>
+        <button class="number" id="two">2</button>
+        <button class="number" id="three">3</button>
+        <button class="operand" id="divide">/</button>
+        <button class="number" id="four">4</button>
+        <button class="number" id="five">5</button>
+        <button class="number" id="six">6</button>
+        <button class="operand" id="multiply">*</button>
+        <button class="number" id="seven">7</button>
+        <button class="number" id="eight">8</button>
+        <button class="number" id="nine">9</button>
+        <button class="operand" id="subtract">-</button>
+        <button id="equals">=</button>
+        <button id="zero">0</button>
+        <button id="dot">.</button>
+        <button class="operand" id="add">+</button>
+    </main>
+    <h3>Thank you <strong>Silas Baisch</strong> for the fish pic!</h3>
+    <script src="script.js"></script>
+</body>
+</html>
